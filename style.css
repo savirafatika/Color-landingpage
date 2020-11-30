@@ -239,6 +239,29 @@
    -moz-text-fill-color: transparent;
 }
 
+#typed {
+   border-bottom: 2px solid #8f0eff;
+}
+
+#typed-cursor {
+   opacity: 1;
+   animation: blink 5s infinite;
+}
+
+@keyframes blink {
+   0% {
+      opacity: 1;
+   }
+
+   50% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
+
 .highlight {
    border-bottom: 4px solid rgb(132, 0, 255);
 }
