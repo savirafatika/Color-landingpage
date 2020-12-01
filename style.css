@@ -1,3 +1,5 @@
+@import url('modal.css');
+
 * {
    box-sizing: border-box;
    margin: 0;
@@ -228,6 +230,10 @@
    align-items: center;
    padding: 0 1rem;
    width: 100%;
+}
+
+.navbar__btn:hover {
+   cursor: pointer;
 }
 
 .button {
